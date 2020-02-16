@@ -31,11 +31,7 @@ class MenuContainer extends Component{
         return (
             <div>
                 <MenuButton handleMouseDown={this.handleMouseDown}/>
-                <Menu handleMouseDown={this.handleMouseDown}
-                      menuVisibility={this.state.visible}/>
-                <div>
-                    <p>Sliding Menu fuckery</p>
-                </div>
+                <Menu handleMouseDown={this.handleMouseDown} menuVisibility={this.state.visible}/>
             </div>
         )
     }

@@ -13,7 +13,6 @@
     background-color: #96D9FF;
     cursor: pointer;
     border-color: #003557;
-    transform: scale(1.2, 1.2);
 }
 
 #roundButton:active {
